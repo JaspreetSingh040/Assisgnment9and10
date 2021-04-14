@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<script type="text/javascript" language="javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" language="javascript" src="js/script2.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Signup using jQuery</title>
+	</head>
+
+	<body>
+		<div class = "pane">
+			<h1>Sign up Page</h1>
+
+			<form id="signup_form" action="index.html" method="post">
+				<table>
+					<tr><td>Enter Email: </td><td><input type="text" class="form_text" id="form_email"></td><td><span class="err_form" id="email_error_message"></span></td></tr> 
+					<tr><td>First Name: </td><td><input type="text" class="form_text" id="form_fname"></td><td><span class="err_form" id="fname_error_message"></span></td></tr>
+					<tr><td>Last Name: </td><td><input type="text" class="form_text" id="form_lname"></td><td><span class="err_form" id="lname_error_message"></span></td></tr>
+					<tr><td> Enter Password: </td><td><input type="password" class="form_text" id="form_password"></td><td><span class="err_form" id="password_error_message"></span></td></tr>
+					<tr><td>Confirm Password: </td><td><input type="password" class="form_text" id="form_retype_password"></td><td><span class="error_form" id="retype_password_error_message"></span></td></tr>
+					<tr><td>Birthdate: </td><td><input type="text" class="form_text" id="form_birth"></td><td><span class="err_form" id="birth_error_message"></span></td></tr>
+					<tr><td><label for="city">Select City:</label></td><td>
+					<select id="city" name="city">
+					  <option value="Ontario">Ontario</option>
+					  <option value="Florida">Florida`</option>
+					  <option value="Toronto">Toronto</option>
+					  <option value="Montreal">Montreal</option>
+					  <option value="Victoria">Victoria</option>]
+					</select></td></tr>
+					<tr><td></td><td><input type="submit" class="sbt_btn" value="Login"></td><td></td></tr>
+				</table>
+			</form>
+
+		</div><!-- end of workarea -->
+	</body>
+</html>
