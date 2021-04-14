@@ -1,0 +1,60 @@
+body {
+	background: #61e4f2;
+}
+h1{
+	text-align: center;
+}
+
+.pane {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 100px;
+  background: white;
+  padding: 10px;
+}
+
+#myinput {
+	height: 30px;
+	font-size: 20px;
+	outline: 0;
+	margin-top:10px;
+}
+
+
+#mytext {
+	font-size: 100px;
+	text-align: center;
+	width: 690px;
+	color: #40516A;
+	margin-top: 100px;
+}
+
+
+.form_text {
+	height: 20px;
+	font-size: 20px;
+	padding: 5px;
+	outline: 0;
+}
+
+.sbt_btn {
+	margin-top: 10px;
+	background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Times;
+	font-size:16px;
+	font-weight:bold;
+	padding:6px 24px;
+}
+
+.err_form {
+	font-size: 15px;
+	font-family: Arial;
+	color: #FF0052;
+}
